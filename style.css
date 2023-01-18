@@ -1,0 +1,98 @@
+.container{
+	font-family: arial;
+	margin: 5% auto;
+	width: 90%;
+}
+
+table, 
+th,
+td{
+	border: 1px solid black;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+label {
+  	display: inline-block;
+  	width: 120px;
+  	padding-right: 20px;
+  	padding-bottom: 20px;
+
+}
+
+input,
+textarea {
+  	font: 1em sans-serif;
+  	box-sizing: border-box;
+}
+
+input[type=text] {
+  	padding: 4px 0;
+  	width: 250px;
+}
+input[type=file] {
+  padding: 4px 0;
+  width: 250px;
+}
+input[type=submit] {
+  	position: relative;
+	left: 144px;
+  	padding: 8px 14px;
+  	border-radius: 4px;
+  	background-color: #0069FF;
+  	border: none;
+  	color: white;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+
+select {
+  	padding: 8px 50px;
+  	border: none;
+  	border-radius: 4px;
+  	background-color: #808080;
+}
+.tombol2{
+	background: #0228fd;
+	color: rgb(255, 255, 255);
+	font-size: 11pt;
+	width: 10%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.tombol3{
+	background: #0228fd;
+	color: rgb(255, 255, 255);
+	font-size: 8pt;
+	width: 10%;
+	border: none;
+	border-radius: 1px;
+	padding: 5px 5px;
+}
+
+ul.pagination {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+	background-color: #428bca;
+	color: white;
+}
+
+ul.pagination li a:hover:not(.active) {
+	background-color: #ddd;
+}
